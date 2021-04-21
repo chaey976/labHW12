@@ -1,0 +1,32 @@
+body {
+  position:relative;
+  margin:0px;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#text {
+  position: absolute;
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
+  color: #feffbf;
+  text-shadow: 2px 2px #b0efef;
+  text-align: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+}
+
+.emoji {
+  font-size:35px;
+  position:absolute;
+}
